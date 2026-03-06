@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6C25FF;
+  --color-primary-light: #DABFFF;
+  --color-bg-gray: #F7F8F9;
+  --color-text-dark: #1D2126;
+  --color-text-gray: #6E7191;
+  --color-error: #FF4D4D;
+}
+
+@layer base {
+  body {
+    @apply bg-bg-gray text-text-dark font-['Outfit'];
+  }
+}
+
+@layer components {
+  .input-group {
+    @apply relative mb-6;
+  }
+
+  .input-field {
+    @apply w-full px-3 py-4 border border-[#CBCBCB] rounded-md text-base outline-none transition-all duration-300 focus:border-primary focus:shadow-[0_0_0_4px_rgba(108,37,255,0.1)];
+  }
+
+  .input-label {
+    @apply absolute -top-2.5 left-3 bg-white px-1 text-[13px] text-primary font-medium;
+  }
+
+  /* Consolidated button styles to avoid multi-level @apply errors */
+  .btn-primary {
+    @apply w-full py-3.5 border-none rounded-md text-base font-medium cursor-pointer transition-all duration-300 text-center no-underline hover:brightness-110 hover:-translate-y-px active:translate-y-0 disabled:bg-[#CBCBCB] disabled:cursor-not-allowed bg-primary text-white;
+  }
+
+  .btn-secondary {
+    @apply w-full py-3.5 border-none rounded-md text-base font-medium cursor-pointer transition-all duration-300 text-center no-underline hover:brightness-110 hover:-translate-y-px active:translate-y-0 disabled:bg-[#CBCBCB] disabled:cursor-not-allowed bg-primary-light text-text-dark;
+  }
+
+  .error-text {
+    @apply text-error text-[11px] absolute -bottom-4.5 left-0;
+  }
+}
+
+@layer utilities {
+  .page-fade-in {
+    animation: fadeIn 0.4s ease-out;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
