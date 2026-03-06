@@ -26,7 +26,7 @@
 
 | Landing | Login | Signup | Profile |
 |:--:|:--:|:--:|:--:|
-| ![Landing Screen](landing_thumb.png) | ![Login Screen](login_thumb.png) | ![Signup Screen](signup_thumb.png) | ![Profile Screen](profile_thumb.png) |
+| ![Landing Screen](landing.png) | ![Login Screen](login.png) | ![Signup Screen](signup.png) | ![Profile Screen](profile.png) |
 
 ---
 
