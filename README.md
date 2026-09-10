@@ -5,9 +5,9 @@
 # 🚀 PopX
 *A Modern, Polished Authentication and Profile Management UI*
 
-![last-commit](https://img.shields.io/github/last-commit/USER/PopX?style=flat&logo=git&logoColor=white&color=6C25FF)
-![repo-top-language](https://img.shields.io/github/languages/top/USER/PopX?style=flat&color=6C25FF)
-![repo-language-count](https://img.shields.io/github/languages/count/USER/PopX?style=flat&color=6C25FF)
+![last-commit](https://img.shields.io/github/last-commit/Surya821/PopX?style=flat&logo=git&logoColor=white&color=6C25FF)
+![repo-top-language](https://img.shields.io/github/languages/top/Surya821/PopX?style=flat&color=6C25FF)
+![repo-language-count](https://img.shields.io/github/languages/count/Surya821/PopX?style=flat&color=6C25FF)
 
 **Tech Stack Used**
 
